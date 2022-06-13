@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@model List<SaasPalProject.Models.Slider>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td><img width="75" src="~/assets/img/@item.Image" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+<h1 class="display-4">Slider is empty</h1>
+}
+

@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding-left: 25% ;
+    font-size: 20px;
+}
+.container-fluid{
+    font-size: 18px;
+}
+
+.navbar-collapse .navbar-nav{
+    gap: 15px;
+}
+
+.header-section{
+    position: relative;
+    z-index: 1;
+    background-image: url(https://preview.uideck.com/items/saaspal/assets/img/hero/hero-bg.svg);
+    padding: 160px 0 50px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: Arimo;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-btn {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 20px 35px;
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+.btn-white{
+    color: #ffff;
+    border: 2px solid white;
+}
+
+.btn-blue{
+    color: #5864ff;
+    border: 2px solid #5864ff;
+    font-size: 18px;
+}
+
+.main-btn:hover {
+    opacity: 0.5;
+    color: rgb(206, 206, 206);
+}
+
+.hero-content{
+    color: #ffffff;
+    line-height: 35px;
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 70px !important;
+}
+
+#features .container .row i{
+    font-size: 60px;
+     padding-bottom: 20px;
+     color: #5864ff;
+}
+
+#features .container .row h3{
+    font-weight: bold;
+}
+
+.pt-120{
+    padding-top: 120px;
+}
+
+
+.pt-150{
+    padding-top: 120px;
+}
+
+.head{
+    position: relative;
+}
+
+.head img{
+    position: absolute;
+}
+
+.dots{
+    top: 450px;
+    left: 230px;
+}
+
+.about-desc{
+    line-height: 35px;
+}
+
+.about-desc h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-desc p{
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+}
+
+.about1{
+    top: 150px;
+    z-index: 2;
+}
+
+.about-desc{
+    margin-top: 200px;
+}
+
+.pt-350{
+    padding-top: 350px;
+}
+
+.la-circle{
+    font-size: 20px;
+    color: #5864ff;
+    background-color: #5864ff;
+    border-radius: 50%;
+}
+
+.why-content i{
+    color: #5864ff;
+    font-size: 70px;
+}
+
+.why-content h3{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.why-content p{
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+}
+
+#why{
+    background-color: rgb(238, 239, 255);
+}
+
+.mt-150{
+    margin-top: 150px;
+}
+
+.c-gray{
+    color: rgb(85, 84, 84);
+}
+
+.footer {
+    color: #ffff;
+    z-index: 5;
+    background-image: url(/assets/img/footer-bg.svg);
+    padding: 300px 0 50px;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+
+.footer a{
+    color: #ffff;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+
+.logo{
+    font-size: 25px;
+    color: #5864ff !important;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 1024px) {
+    .hero-img img {
+        display: none;
+    }
+    .head img {
+        display: none;
+    }
+}
